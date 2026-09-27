@@ -436,38 +436,155 @@ section h2::after {
   position: relative;
 }
 
-#sobre > p {
-  max-width: 760px;
+.sobre-cabecalho {
+  max-width: 780px;
+  margin-bottom: 44px;
+}
 
-  color: var(--text-secondary);
-  font-size: 1.08rem;
+.sobre-label {
+  display: inline-block;
 
+  margin-bottom: 12px;
+
+  color: var(--accent-light);
+
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.sobre-cabecalho h2 {
   margin-bottom: 18px;
 }
 
-#sobre > p:last-child {
+.sobre-introducao {
+  max-width: 700px;
+
+  color: var(--text-secondary);
+
+  font-size: 1.15rem;
+  line-height: 1.75;
+}
+
+.sobre-grid {
+  display: grid;
+
+  grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.75fr);
+
+  gap: 24px;
+  align-items: stretch;
+}
+
+.sobre-texto {
+  padding: 34px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.025),
+      rgba(255, 255, 255, 0.01)
+    ),
+    var(--bg-card);
+
+  border: 1px solid var(--border);
+  border-radius: var(--radius-medium);
+
+  box-shadow: var(--shadow-small);
+}
+
+.sobre-texto p {
+  margin-bottom: 20px;
+
+  color: var(--text-secondary);
+
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.sobre-texto p:last-of-type {
+  margin-bottom: 26px;
+}
+
+.sobre-local {
   display: inline-flex;
   align-items: center;
 
-  margin-top: 8px;
-  margin-bottom: 0;
-
   padding: 8px 14px;
 
-  color: #dbeafe;
-  font-size: 0.95rem;
+  color: var(--text-secondary);
+
+  font-size: 0.9rem;
   font-weight: 600;
 
   background: rgba(59, 130, 246, 0.08);
+
   border: 1px solid rgba(59, 130, 246, 0.17);
   border-radius: 999px;
 }
 
-#sobre > p:last-child::before {
-  content: "📍";
-  margin-right: 7px;
+.sobre-destaques {
+  display: grid;
+
+  gap: 14px;
 }
 
+.sobre-item {
+  padding: 24px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border);
+  border-radius: var(--radius-medium);
+
+  box-shadow: var(--shadow-small);
+
+  transition:
+    transform var(--transition),
+    background-color var(--transition),
+    border-color var(--transition),
+    box-shadow var(--transition);
+}
+
+.sobre-item:hover {
+  transform: translateY(-4px);
+
+  background: var(--bg-card-hover);
+
+  border-color: var(--border-hover);
+
+  box-shadow: var(--shadow-medium);
+}
+
+.sobre-item-label {
+  display: block;
+
+  margin-bottom: 9px;
+
+  color: var(--accent-light);
+
+  font-size: 0.75rem;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.sobre-item h3 {
+  margin-bottom: 8px;
+
+  color: var(--text-primary);
+
+  font-size: 1.05rem;
+}
+
+.sobre-item p {
+  color: var(--text-muted);
+
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
 /* =========================================================
    HABILIDADES
 ========================================================= */
