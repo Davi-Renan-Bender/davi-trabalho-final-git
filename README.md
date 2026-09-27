@@ -2,38 +2,43 @@
 
 ## Portfólio Pessoal
 
-Portfólio desenvolvido para apresentar minha formação, habilidades e projetos na área de desenvolvimento web.
+Portfólio pessoal desenvolvido para apresentar minha formação, conhecimentos e projetos na área de desenvolvimento web.
 
-O projeto foi desenvolvido como trabalho final da Unidade Curricular de **Versionamento e Colaboração**, com foco na aplicação prática de Git e GitHub, organização do código, criação de branches, commits semânticos e integração das alterações por meio de Pull Requests.
+O projeto também foi utilizado como trabalho final da unidade de **Versionamento e Colaboração**, aplicando Git e GitHub durante o desenvolvimento.
 
 ## Sobre o projeto
 
-O portfólio reúne informações sobre minha formação em **Informática para Internet**, minhas principais habilidades e projetos desenvolvidos durante minha trajetória de aprendizagem.
+O portfólio reúne informações sobre minha formação em **Informática para Internet**, minha trajetória de aprendizagem e os projetos que venho desenvolvendo.
 
-A página foi construída com uma estrutura simples e objetiva, buscando apresentar os projetos de forma organizada e permitir que cada um tenha acesso aos seus detalhes e respectivos repositórios.
+A interface foi construída com foco em simplicidade, organização e apresentação profissional, utilizando uma identidade visual baseada em tons escuros e verde.
+
+Além do desenvolvimento da interface, o projeto utiliza um fluxo organizado de versionamento com branches, commits semânticos e Pull Requests.
 
 ## Funcionalidades
 
-- Apresentação pessoal e formação;
-- Seção de habilidades;
-- Exibição dos projetos desenvolvidos;
-- Acesso aos detalhes dos projetos por meio de modais interativos;
-- Links para os repositórios dos projetos no GitHub;
-- Navegação entre as seções da página;
-- Interface desenvolvida com HTML, CSS e JavaScript.
+- Apresentação pessoal;
+- Seção Sobre mim;
+- Apresentação de formação, foco atual e objetivo;
+- Seção de projetos;
+- Cards individuais para cada projeto;
+- Modais com detalhes dos projetos;
+- Links para os respectivos repositórios no GitHub;
+- Formulário de contato;
+- Preenchimento automático de uma mensagem no Gmail;
+- Interface adaptada para diferentes tamanhos de tela.
 
 ## Tecnologias utilizadas
 
 ### Front-end
 
-- **HTML5** — estrutura semântica da página;
-- **CSS3** — estilização, layout, componentes e identidade visual;
-- **JavaScript** — interações e comportamento dos modais.
+- **HTML5** — estrutura semântica e organização do conteúdo;
+- **CSS3** — layout, identidade visual, componentes e responsividade;
+- **JavaScript** — interações dos modais e funcionamento do formulário.
 
 ### Versionamento
 
-- **Git** — controle de versões, branches, commits e integração das alterações;
-- **GitHub** — hospedagem do repositório, Pull Requests e organização do histórico do projeto.
+- **Git** — controle de versões e gerenciamento de branches;
+- **GitHub** — hospedagem do projeto, Pull Requests e histórico de desenvolvimento.
 
 ## Estrutura do projeto
 
@@ -47,57 +52,53 @@ davi-trabalho-final-git/
 └── style.css
 ```
 
-## Como executar o projeto
+## Como executar
 
-### 1. Clonar o repositório
+### Clonar o repositório
 
 ```bash
 git clone https://github.com/Davi-Renan-Bender/davi-trabalho-final-git.git
 ```
 
-### 2. Entrar na pasta
+### Entrar na pasta
 
 ```bash
 cd davi-trabalho-final-git
 ```
 
-### 3. Executar
+### Executar
 
-Abra o arquivo `index.html` no navegador.
+Abra o arquivo `index.html` diretamente no navegador.
 
-Para uma experiência melhor durante o desenvolvimento, o projeto pode ser executado utilizando a extensão **Live Server** no Visual Studio Code.
+Durante o desenvolvimento, também pode ser utilizada a extensão **Live Server** no Visual Studio Code.
 
 ## Projetos
 
 ### EduWatch
 
-Projeto voltado ao acompanhamento de indicadores educacionais, desenvolvido como atividade prática durante minha formação.
+Projeto acadêmico voltado ao monitoramento e acompanhamento do desempenho dos estudantes.
+
+O projeto foi desenvolvido durante minha formação e utiliza conceitos de desenvolvimento web e organização de informações.
 
 [Ver repositório no GitHub](https://github.com/Davi-Renan-Bender/EduWatch)
 
 ### Lume eCommerce
 
-Projeto de loja virtual desenvolvido para praticar desenvolvimento web, construção de interfaces e implementação de funcionalidades com JavaScript.
+Projeto de loja virtual desenvolvido para praticar conceitos de desenvolvimento web, construção de interfaces e JavaScript.
 
 [Ver repositório no GitHub](https://github.com/Davi-Renan-Bender/Lume-e-commerce)
 
-### Portfólio
+### Portfólio Pessoal
 
-Este próprio projeto funciona como meu portfólio pessoal e como demonstração prática dos conhecimentos de desenvolvimento web e versionamento.
+Este próprio projeto é meu portfólio pessoal e também demonstra, na prática, a utilização de Git e GitHub durante seu desenvolvimento.
 
 [Ver repositório no GitHub](https://github.com/Davi-Renan-Bender/davi-trabalho-final-git)
 
 ## Versionamento
 
-O desenvolvimento do projeto utiliza um fluxo baseado em:
+O desenvolvimento do projeto foi organizado utilizando branches para alterações específicas e Pull Requests para integração com a `main`.
 
-- branches para desenvolvimento de funcionalidades;
-- commits semânticos;
-- Pull Requests para integração das alterações;
-- histórico de mudanças organizado por etapas;
-- tags e releases para identificação de versões.
-
-Os principais prefixos utilizados nos commits são:
+Os commits seguem uma convenção semântica, utilizando principalmente:
 
 ```text
 feat:
@@ -107,17 +108,30 @@ docs:
 chore:
 ```
 
+Entre as práticas utilizadas durante o desenvolvimento estão:
+
+- criação de branches para funcionalidades e alterações;
+- commits semânticos;
+- Pull Requests;
+- integração das alterações na `main`;
+- manutenção do histórico de desenvolvimento;
+- organização do projeto com `.gitignore`.
+
 ## Autor
 
 **Davi Renan Bender**
 
 Estudante de Informática para Internet e desenvolvedor em formação.
 
-### Contato
+**E-mail:** [davi.renan.b3@gmail.com](mailto:davi.renan.b3@gmail.com)
 
-- **GitHub:** [Davi-Renan-Bender](https://github.com/Davi-Renan-Bender)
-- **Repositório deste projeto:** [davi-trabalho-final-git](https://github.com/Davi-Renan-Bender/davi-trabalho-final-git)
+**GitHub:**
+https://github.com/Davi-Renan-Bender
+
+## Repositório
+
+https://github.com/Davi-Renan-Bender/davi-trabalho-final-git
 
 ---
 
-Desenvolvido por **Davi Renan Bender**.
+Desenvolvido por **Davi Renan Bender** · 2026
