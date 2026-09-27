@@ -441,20 +441,84 @@
       </dialog>
 
       <section id="contato">
-        <h2>Contato</h2>
+        <div class="contato-cabecalho">
+          <span class="contato-label">Fale comigo</span>
 
-        <p>
-          Você pode encontrar meus projetos e acompanhar minha evolução através
-          das redes abaixo.
-        </p>
+          <h2>Contato</h2>
 
-        <ul>
-          <li>
-            <a href="https://github.com/Davi-Renan-Bender" target="_blank">
-              GitHub
+          <p>
+            Entre em contato para conversar sobre projetos, desenvolvimento web
+            ou oportunidades na área de tecnologia.
+          </p>
+        </div>
+
+        <div class="contato-grid">
+          <div class="contato-info">
+            <h3>Vamos conversar</h3>
+
+            <p>
+              Você também pode acompanhar meus projetos e minha evolução
+              profissional através do GitHub.
+            </p>
+
+            <a
+              href="https://github.com/Davi-Renan-Bender"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contato-link"
+            >
+              Ver meu GitHub
             </a>
-          </li>
-        </ul>
+          </div>
+
+          <form id="form-contato" class="form-contato">
+            <div class="form-grupo">
+              <label for="nome">Nome</label>
+
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Digite seu nome"
+                autocomplete="name"
+                required
+              />
+            </div>
+
+            <div class="form-grupo">
+              <label for="email">E-mail</label>
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Digite seu e-mail"
+                autocomplete="email"
+                required
+              />
+            </div>
+
+            <div class="form-grupo">
+              <label for="mensagem">Mensagem</label>
+
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="6"
+                placeholder="Digite sua mensagem"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-contato">Enviar mensagem</button>
+
+            <p
+              id="status-contato"
+              class="status-contato"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
       </section>
     </main>
 
